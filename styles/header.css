@@ -1,0 +1,25 @@
+body {
+  background-color: var(--azul);
+}
+
+.header__container {
+  background-image: url(../assets/imagens/outros/Forma-1-mobile.png);
+  background-repeat: no-repeat;
+  height: 295px;
+}
+
+.nav__container {
+  display: flex;
+  padding-top: 48px;
+  padding-left: 48.5px; 
+
+}
+
+.nav__container button {
+  background-color: var(--verde);
+  border: none;
+}
+
+.nav__container button:nth-child(1){
+  padding-right: 58.61px;
+}

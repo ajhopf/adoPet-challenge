@@ -1,0 +1,17 @@
+:root {
+  --azul: #3772FF;
+  --verde: #36D6AD;
+  --coral: #FC7071;
+  --botao-hover: #FF9D9E;
+  --creme: #FCF0E3;
+  --cinza-escuro: #737380;
+  --cinza-claro: #BCBCBC;
+  --cinza-claro-fundo: #F6F6F6;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,81 @@
+body {
+  background-color: var(--azul);
+}
+
+/*Logo e textos iniciais*/
+.welcome__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -135px;
+}
+
+
+.logo-principal {
+  width: 186.67px;
+}
+
+.welcome__container h3 {
+  color: #FFFFFF;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.625rem;
+  font-weight: 500;
+}
+
+.welcome__container p {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+  width: 248px;
+}
+
+/*Botões*/
+
+.buttons__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -130px;
+}
+
+.buttons__container button {
+  background-color: var(--coral);
+  border-radius: 6px;
+  border: 1px solid var(--coral);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  color:#FFFFFF;
+  font-family:'Poppins', sans-serif;
+  font-weight: 600;
+  height: 40px;
+  line-height: 24px;
+  width: 180px;
+}
+
+.buttons__container button:nth-child(1) {
+  margin-bottom: 16px;
+}
+
+.buttons__container button:hover {
+  background-color: var(--botao-hover);
+  border: 1px solid var(--botao-hover);
+}
+
+/*Imagens de estilização*/
+
+#forma2 {
+  position: absolute;
+  right: 0px;
+  top: 199px;
+}
+
+#ilustracao-main {
+  bottom: 100px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+}

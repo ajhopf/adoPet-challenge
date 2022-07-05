@@ -1,0 +1,16 @@
+.footer__container {
+ background: var(--verde); 
+ display: flex;
+ height: 104px;
+ align-items: center;
+ justify-content: center;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+
+.footer__container p {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
