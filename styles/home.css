@@ -1,0 +1,125 @@
+/*Header*/
+
+.header__container {
+  background-image: url(../assets/imagens/outros/Forma-1-mobile.png);
+  background-repeat: no-repeat;
+  height: 18.43rem;
+}
+
+
+.nav__container {
+  display: flex;
+  padding-top: 48px;
+  padding-left: 48.5px; 
+  position: relative;
+}
+
+.nav__container .button-nav {
+  background-color: var(--verde);
+  border: none;
+}
+
+.nav__container .button-nav:nth-child(1){
+  padding-right: 58.61px;
+}
+
+.nav__container .user-icon{
+  position: absolute;
+  right: 37px;
+  top: 40px;
+  background-color: transparent;
+  border: none;
+}
+
+/*Main*/
+.main__container.main__login {
+  min-height: 600px;
+}
+
+#h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  max-width: 226px;
+}
+
+.main__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -200px;
+}
+
+.welcome__container h3 {
+  color: var(--azul);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 21px;
+  width: 312px;
+}
+
+/*Cards*/
+
+.card__container {
+  display: flex;
+  background-color: var(--cinza-claro-fundo);
+  width: 100%;
+  max-width: 360px;
+  z-index: -1;
+  max-height: 196px;
+  margin-bottom: 1rem;
+}
+
+.img__container {
+  padding: 24px 16px 24px 24px;
+}
+
+.text__container h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--azul);
+  margin: 16px 0 8px;
+}
+
+.text__container ul {
+  list-style: none;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: var(--cinza-escuro);
+  margin: 0 0 30px 0;
+}
+
+.text__container p {
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--cinza-escuro);
+  margin: 0 0 7px 0;
+}
+
+.text__container a {
+  background-image: url('../assets/imagens/outros/ícone\ mensagem.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  padding-left: 26px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
+  color: var(--cinza-escuro);
+}
+
+
+
+

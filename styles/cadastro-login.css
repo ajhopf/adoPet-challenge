@@ -25,6 +25,7 @@
   padding-right: 58.61px;
 }
 
+
 /*Logo e texto antes do formulário*/
 
 /*Esta parte é apenas para a página de login*/
@@ -37,18 +38,6 @@
   margin-bottom: 30px;
 }
 
-.forgot-password {
-  margin-left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.forgot-password a {
-  color: var(--coral);
-  font-family: 'Poppins', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 400;
-}
 
 
 /*Esta parte é para login e cadastro*/
@@ -156,7 +145,23 @@ OBS: a primeira é para a página de cadastro e a segunda para a pagina de login
   font-size: 0.75rem;
 }
 
-/*Botão cadastrar*/
+/*parte do formulário específica para o login*/
+.forgot-password {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.forgot-password a {
+  color: var(--coral);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+
+
+/*Botão do formulário*/
 
 .buttons__container button {
   background-color: var(--coral);
