@@ -72,15 +72,26 @@ body {
 
 /*Imagens de estilização*/
 
+
+.main__container {
+  min-height: 550px;
+  background-image: url('../assets/imagens/outros/ilustracao-gato-cachorro2.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  margin-bottom: 80px;
+  
+}
+
 #forma2 {
   position: absolute;
   right: 0px;
   top: 199px;
 }
 
-#ilustracao-main {
+/* #ilustracao-main {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 85px;
-}
+  z-index: -1;
+} */
