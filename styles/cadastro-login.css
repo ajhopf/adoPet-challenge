@@ -27,6 +27,31 @@
 
 /*Logo e texto antes do formulário*/
 
+/*Esta parte é apenas para a página de login*/
+.main__container.main__login {
+  min-height: 600px;
+}
+
+#h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.forgot-password {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.forgot-password a {
+  color: var(--coral);
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+
+/*Esta parte é para login e cadastro*/
 
 .welcome__container {
   align-items: center;
@@ -63,12 +88,21 @@
 }
 
 
-/*Imagem main container*/
+/*Imagem main container:
+OBS: a primeira é para a página de cadastro e a segunda para a pagina de login
+*/
 
 .main__container {
   background-image: url('../assets/imagens/outros/Forma-2-lateralE.png');
   background-repeat: no-repeat;
   background-position-y: center;
+}
+
+
+.main__container.main__login {
+  background-image: url('../assets/imagens/outros/Forma-2-lateralE.png');
+  background-repeat: no-repeat;
+  background-position-y: 70px;
 }
 
 /*Formulário*/

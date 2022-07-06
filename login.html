@@ -11,11 +11,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/base.css" />
-    <link rel="stylesheet" href="./styles/index-header.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/index-main.css" />
+    <link rel="stylesheet" href="./styles/cadastro-login.css" />
 
-    <title>AdoPet | Boas-vindas!</title>
+    <title>AdoPet</title>
   </head>
   <body>
     <header class="header__container">
@@ -34,36 +34,41 @@
         </button>
       </nav>
     </header>
-    <main class="main__container">
+    <main class="main__container main__login">
       <div class="welcome__container">
         <img
           class="logo-principal"
-          src="./assets/imagens/logos/Logos-02.png"
+          src="./assets/imagens/logos/Logos-03.png"
           alt=""
         />
-        <h3>Boas-vindas!</h3>
-        <p>
-          Que tal mudar sua vida <br />
-          adotando seu novo melhor <br />
-          amigo? Vem com a gente!
-        </p>
+        <h3 id="h3">Já tem conta? Faça seu login:</h3>
       </div>
-      <div class="buttons__container">
-        <a href="login.html"><button>Já tenho conta</button></a>
-        <a href="cadastro.html"><button>Quero me cadastrar</button></a>
-      </div>
-      <div class="images__container">
-        <img
-          id="forma2"
-          src="./assets/imagens/outros/Forma-2-lateral.png"
-          alt=""
-        />
-        <img
-          id="ilustracao-main"
-          src="./assets/imagens/outros/ilustracao-gato-cachorro2.png"
-          alt=""
-        />
-      </div>
+      <form action="" class="form__container">
+        <div class="form-item__container">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Insira seu email"
+          />
+        </div>
+        <div class="form-item__container">
+          <label for="Senha">Senha</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            placeholder="Insira sua senha"
+          />
+        </div>
+        <div class="forgot-password">
+          <a href="#">Esqueci minha senha</a>
+        </div>
+        <div class="buttons__container">
+          <a href="#"><button>Entrar</button></a>
+        </div>
+      </form>
     </main>
     <footer class="footer__container">
       <p>2022 - Desenvolvido por Alura.</p>
