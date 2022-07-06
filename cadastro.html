@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/cadastro-login.css" />
+
+    <title>AdoPet</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <nav class="nav__container">
+        <button>
+          <a href="./index.html"
+            ><img src="./assets/imagens/header/Casa.png" alt="Botão para home"
+          /></a>
+        </button>
+        <button>
+          <a href="#"
+            ><img
+              src="./assets/imagens/header/Mensagens.png"
+              alt="Botão para mensagens"
+          /></a>
+        </button>
+      </nav>
+    </header>
+    <main class="main__container">
+      <div class="welcome__container">
+        <img
+          class="logo-principal"
+          src="./assets/imagens/logos/Logos-03.png"
+          alt=""
+        />
+        <h3>Ainda não tem cadastro?</h3>
+        <p>
+          Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+        </p>
+      </div>
+      <form action="" class="form__container">
+        <div class="form-item__container">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Escolha o seu melhor email"
+          />
+        </div>
+        <div class="form-item__container">
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Digite seu nome completo"
+          />
+        </div>
+        <div class="form-item__container">
+          <label for="Senha">Senha</label>
+          <input
+            type="password"
+            name="senha"
+            id="senha"
+            placeholder="Crie uma senha"
+          />
+        </div>
+        <div class="form-item__container">
+          <label for="confirma-senha">Confirma sua senha</label>
+          <input
+            type="password"
+            name="confirma-senha"
+            id="confirma-senha"
+            placeholder="Repita a senha criada acima"
+          />
+        </div>
+        <div class="buttons__container">
+          <a href="#"><button>Cadastrar</button></a>
+        </div>
+      </form>
+    </main>
+    <footer class="footer__container">
+      <p>2022 - Desenvolvido por Alura.</p>
+    </footer>
+  </body>
+</html>

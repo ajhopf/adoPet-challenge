@@ -3,6 +3,11 @@ body {
 }
 
 /*Logo e textos iniciais*/
+
+.welcome__container{
+  position: relative;
+  width: 100%;
+}
 .welcome__container {
   align-items: center;
   display: flex;
@@ -74,8 +79,8 @@ body {
 }
 
 #ilustracao-main {
-  bottom: 100px;
-  display: flex;
-  margin: 0 auto;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 85px;
 }
