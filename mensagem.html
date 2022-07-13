@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/mensagem.css" />
+
+    <title>AdoPet | Mensagem</title>
+  </head>
+  <body>
+    <header class="header__container">
+      <nav class="nav__container">
+        <button class="button-nav">
+          <a href="./index.html"
+            ><img src="./assets/imagens/header/Casa.png" alt="Botão para home"
+          /></a>
+        </button>
+        <button class="button-nav">
+          <a href="#"
+            ><img
+              src="./assets/imagens/header/Mensagens.png"
+              alt="Botão para mensagens"
+          /></a>
+        </button>
+        <button class="user-icon">
+          <a href="#"
+            ><img
+              src="./assets/imagens/header/user-icon.png"
+              alt="Ícone de usuário"
+          /></a>
+        </button>
+      </nav>
+    </header>
+    <main class="main__container">
+      <section class="welcome__container">
+        <h3 id="h3">
+          Envie uma mensagem para a pessoa ou instituição que está cuidando do
+          animal:
+        </h3>
+      </section>
+
+      <form class="form__container" action="">
+        <div class="form-item__container nome">
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Insira seu nome completo"
+          />
+        </div>
+        <div class="form-item__container telefone">
+          <label for="telefone">Telefone</label>
+          <input
+            type="text"
+            name="telefone"
+            id="telefone"
+            placeholder="Digite seu telefone e/ou whatsapp"
+          />
+        </div>
+        <div class="form-item__container animal">
+          <label for="nome-animal">Nome do Animal</label>
+          <input
+            type="text"
+            name="nome-animal"
+            id="nome-animal"
+            placeholder="Por qual animal você se interessou?"
+          />
+        </div>
+        <div class="form-item__container mensagem">
+          <label for="mensagem">Mensagem</label>
+          <input
+            type="text"
+            name="mensagem"
+            id="mensagem"
+            placeholder="Escreva sua mensagem."
+          />
+        </div>
+
+        <button class="form-button">Enviar</button>
+      </form>
+    </main>
+    <footer class="footer__container">
+      <p>2022 - Desenvolvido por Alura.</p>
+    </footer>
+  </body>
+</html>

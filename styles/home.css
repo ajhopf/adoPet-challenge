@@ -1,40 +1,9 @@
-/*Header*/
-
-.header__container {
+body {
   background-image: url(../assets/imagens/outros/Forma-1-mobile.png);
   background-repeat: no-repeat;
   height: 18.43rem;
 }
 
-
-.nav__container {
-  display: flex;
-  padding-top: 48px;
-  padding-left: 48.5px; 
-  position: relative;
-}
-
-.nav__container .button-nav {
-  background-color: var(--verde);
-  border: none;
-}
-
-.nav__container .button-nav:nth-child(1){
-  padding-right: 58.61px;
-}
-
-.nav__container .user-icon{
-  position: absolute;
-  right: 37px;
-  top: 40px;
-  background-color: transparent;
-  border: none;
-}
-
-/*Main*/
-.main__container.main__login {
-  min-height: 600px;
-}
 
 #h3 {
   margin-top: 50px;
@@ -47,8 +16,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  top: -200px;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
 .welcome__container h3 {

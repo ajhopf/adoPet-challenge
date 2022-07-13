@@ -1,15 +1,7 @@
-
-.header__container {
-  background-image: url(../assets/imagens/outros/Forma-1-mobile.png);
-  background-repeat: no-repeat;
-  height: 295px;
-}
-
 .nav__container {
   display: flex;
   padding-top: 48px;
   padding-left: 48.5px; 
-
 }
 
 .nav__container button {
@@ -19,4 +11,12 @@
 
 .nav__container button:nth-child(1){
   padding-right: 58.61px;
+}
+
+.nav__container .user-icon{
+  position: absolute;
+  right: 37px;
+  top: 40px;
+  background-color: transparent;
+  border: none;
 }

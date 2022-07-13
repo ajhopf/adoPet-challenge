@@ -1,22 +1,35 @@
 body {
   background-color: var(--azul);
+  background-image: url('../assets/imagens/outros/Forma-1-mobile.png'),url('../assets/imagens/outros/Forma-2-lateral.png'), url('../assets/imagens/outros/ilustracao-gato-cachorro2.png');
+  background-repeat: no-repeat;
+  background-position: left top, right 40%, 50% 87%;
+  min-height: 100vh;
 }
+
 
 /*Logo e textos iniciais*/
 
+.main__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
 .welcome__container{
-  position: relative;
+  position: absolute;
+  top: 150px;
   width: 100%;
 }
+
 .welcome__container {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
-  top: -135px;
 }
-
 
 .logo-principal {
   width: 186.67px;
@@ -44,11 +57,13 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: -130px;
+  position: absolute;
+  left: 50%;
+  top: 400px;
+  transform: translateX(-50%);
 }
 
-.buttons__container button {
+.buttons__container a {
   background-color: var(--coral);
   border-radius: 6px;
   border: 1px solid var(--coral);
@@ -58,40 +73,18 @@ body {
   font-weight: 600;
   height: 40px;
   line-height: 24px;
+  text-decoration: none;
   width: 180px;
+  box-sizing: border-box;
+  padding-top: 7px;
+  text-align: center;
 }
 
-.buttons__container button:nth-child(1) {
+.buttons__container a:nth-child(1) {
   margin-bottom: 16px;
 }
 
-.buttons__container button:hover {
+.buttons__container a:hover {
   background-color: var(--botao-hover);
   border: 1px solid var(--botao-hover);
 }
-
-/*Imagens de estilização*/
-
-
-.main__container {
-  min-height: 550px;
-  background-image: url('../assets/imagens/outros/ilustracao-gato-cachorro2.png');
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  margin-bottom: 85px;
-  
-}
-
-#forma2 {
-  position: absolute;
-  right: 0px;
-  top: 199px;
-}
-
-/* #ilustracao-main {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 85px;
-  z-index: -1;
-} */
