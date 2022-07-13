@@ -10,7 +10,7 @@ body {
 #h3 {
   margin-top: 50px;
   margin-bottom: 30px;
-  max-width: 226px;
+  width: 226px;
 }
 
 .main__container {
@@ -36,6 +36,26 @@ body {
 
 /*Formulário*/
 
+figure {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: var(--coral);
+}
+
+.form__container h2 {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+  color: var(--cinza-escuro);
+}
+
 .form__container {
   background-color: var(--cinza-claro-fundo);
   min-width: 312px;
@@ -43,7 +63,7 @@ body {
   border: 2px solid var(--cinza-claro-fundo);
   border-radius: 10px;
   box-sizing: border-box;
-  /* min-height: 680px; */
+
 }
 
 .form-item__container label{
@@ -72,12 +92,16 @@ body {
   padding-bottom: 140px;
 }
 
+.form-item__container input#sobre {
+  padding-bottom: 140px;
+}
+
 .form-item__container input::placeholder{
   color: var(--cinza-claro);
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
 }
 
@@ -106,3 +130,46 @@ body {
   border: 1px solid var(--botao-hover);
 }
 
+/*Media queries*/
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url('../assets/imagens/outros/forma-1-grande.png'),url('../assets/imagens/outros/forma-2-grande.png');
+  background-repeat: no-repeat;
+  background-position:left top, 100% 60%;
+  }
+
+  .main__container {
+    margin-top: 75px;
+  }
+  .welcome__container #h3 {
+    width: 524px;
+    font-size: 1.125rem;
+  }
+
+  .form__container {
+    min-width: 524px;
+  }
+
+  .form__container input {
+    width: 492px;
+  }
+
+  .form-button {
+    min-width: 164px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-position:left top, 100% 50%
+  }
+
+  .main__container {
+    margin-top: 40px;
+  }
+
+  .form__container {
+    min-width: 552px;
+  }
+}

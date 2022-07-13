@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/mensagem-perfil.css" />
 
-    <title>AdoPet | Mensagem</title>
+    <title>AdoPet | Perfil</title>
   </head>
   <body>
     <header class="header__container">
@@ -44,12 +44,34 @@
     <main class="main__container">
       <section class="welcome__container">
         <h3 id="h3">
-          Envie uma mensagem para a pessoa ou instituição que está cuidando do
-          animal:
+          Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua
+          mensagem.
         </h3>
       </section>
 
       <form class="form__container" action="">
+        <h2>Perfil</h2>
+        <div class="form-item__container foto">
+          <label for="foto">Foto</label>
+          <!-- <input
+            type="file"
+            name="foto"
+            id="foto"
+            placeholder="Insira seu nome completo"
+          /> -->
+          <figure>
+            <img
+              src="./assets/imagens/outros/imagem-usuario.png"
+              alt="Avatar"
+            />
+            <figcaption>
+              Clique na imagem para editar
+              <!-- <img
+                src="https://raw.githubusercontent.com/ThiagoLuizNunes/angular-boilerplate/master/src/assets/imgs/camera-white.png"
+              /> -->
+            </figcaption>
+          </figure>
+        </div>
         <div class="form-item__container nome">
           <label for="nome">Nome</label>
           <input
@@ -68,21 +90,21 @@
             placeholder="Digite seu telefone e/ou whatsapp"
           />
         </div>
-        <div class="form-item__container animal">
-          <label for="nome-animal">Nome do Animal</label>
+        <div class="form-item__container cidade">
+          <label for="cidade">Cidade</label>
           <input
             type="text"
-            name="nome-animal"
-            id="nome-animal"
-            placeholder="Por qual animal você se interessou?"
+            name="cidade"
+            id="cidade"
+            placeholder="São Paulo"
           />
         </div>
         <div class="form-item__container mensagem">
-          <label for="mensagem">Mensagem</label>
+          <label for="sobre">Sobre</label>
           <input
             type="text"
-            name="mensagem"
-            id="mensagem"
+            name="sobre"
+            id="sobre"
             placeholder="Escreva sua mensagem."
           />
         </div>

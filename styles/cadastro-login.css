@@ -7,12 +7,6 @@ body {
   min-height: 100vh;
 }
 
-
-#h3 {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
 .main__container {
   align-items: center;
   display: flex;
@@ -29,6 +23,11 @@ body {
   justify-content: center;
   margin-top: 4.5rem;
  
+}
+
+#h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .logo-principal {
@@ -61,6 +60,7 @@ body {
   top: 200px; */
   width: 100%;
   margin-bottom: 105px;
+  text-align: center;
 }
 
 .form-item__container {
@@ -83,6 +83,7 @@ body {
 .form-item__container label {
   margin-bottom: 4px;
 }
+
 
 .form-item__container input {
   background-color: var(--cinza-claro-fundo);
@@ -131,7 +132,7 @@ body {
   height: 40px;
   padding: 0.5rem 2rem;
   box-sizing: border-box;
-  min-width: 180px;
+  min-width: 148px;
   text-align: center;
 }
 
@@ -149,3 +150,127 @@ body {
   border: 1px solid var(--botao-hover);
 }
 
+
+/*media queries*/
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url('../assets/imagens/header/patas-grande.png'), url('../assets/imagens/outros/forma-1-grande.png'),url('../assets/imagens/outros/forma-2-grande.png');
+  background-repeat: no-repeat;
+  background-position: right top, left top, 100% 60%;
+  }
+
+  .main__container {
+    margin-top: 50px;
+  }
+
+  .logo-principal {
+    width: 251.59px;
+  }
+
+  .welcome__container h3 {
+    font-size: 1.125rem;
+  }
+
+  .welcome__container p {
+    font-size: 1.125rem;
+    width: 525px;
+  }
+
+  .form-item__container {
+    font-size: 1.125rem;
+  }
+
+  .form__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .form-item__container.confirma-senha {
+    order: 1;
+  }
+
+  .form-item__container.senha {
+    order: 2;
+  }
+
+  .form-item__container.email {
+    order: 3;
+  }
+  
+  .form-item__container.nome {
+    order: 4;
+  }
+
+  .form-item__container input::placeholder {
+    font-size: 0.875rem;
+  }
+
+  .forgot-password a {
+    font-size: 0.875rem;
+  }
+
+  .anchor__container {
+   
+    min-width: 164px;
+  }
+
+  /*Este media query é apenas para o cadastro resolvendo o issue criado pela inversão das div de email e nome - tive que colocar o form__container como display flex, column e isso desconfigurou o botão de cadastrar*/
+  .anchor__container.cadastro{
+    top: 47rem;
+  }
+
+  .anchor__container a {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  .main__container {
+    margin-top: -10px;
+  }
+
+  .logo-principal {
+    width: 259.71px;
+  }
+
+  .welcome__container p {
+    width: 552px;
+  }
+
+  .form-item__container {
+    font-size: 1.125rem;
+  }
+
+  .form-item__container.email input{
+    width: 552px;
+    transform: translateX(-20%);
+  }
+
+  .form-item__container.nome input {
+    width: 552px;
+    transform: translateX(-20%);
+  }
+
+  .form-item__container input::placeholder {
+    font-size: 0.875rem;
+  }
+
+  .forgot-password a {
+    font-size: 0.875rem;
+  }
+
+  .anchor__container {
+    min-width: 164px;
+  }
+
+  /*Este media query é apenas para o cadastro resolvendo o issue criado pela inversão das div de email e nome - tive que colocar o form__container como display flex, column para poder alterar a ordem das divs filhas e isso desconfigurou o botão de cadastrar*/
+  .anchor__container.cadastro {
+    top: 43.75rem;
+  }
+
+  .anchor__container a {
+    font-size: 1.125rem;
+  }
+}

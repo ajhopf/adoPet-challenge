@@ -20,3 +20,27 @@
   background-color: transparent;
   border: none;
 }
+
+/*media queries*/
+
+@media screen and (min-width: 768px) {
+  .nav__container {
+    margin-left: 50px;
+    padding-left: 190px;
+    background-image: url('../assets/imagens/logos/Logos-02.png');
+    background-repeat: no-repeat;
+    background-size: 128px;
+    background-position: bottom left;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .nav__container {
+    margin-left: 161px;
+    padding-left: 176px;
+    background-image: url('../assets/imagens/logos/Logos-02.png');
+    background-repeat: no-repeat;
+    background-size: 128px;
+    background-position: bottom left;
+  }
+}
