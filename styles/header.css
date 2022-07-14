@@ -4,12 +4,21 @@
   padding-left: 48.5px; 
 }
 
-.nav__container button {
+/* .nav__container button {
   background-color: var(--verde);
   border: none;
 }
 
 .nav__container button:nth-child(1){
+  padding-right: 58.61px;
+} */
+
+.nav__container a {
+  background-color: var(--verde);
+  border: none;
+}
+
+.nav__container a:nth-child(1){
   padding-right: 58.61px;
 }
 
@@ -42,5 +51,9 @@
     background-repeat: no-repeat;
     background-size: 128px;
     background-position: bottom left;
+  }
+
+  .nav__container .user-icon{
+    right: 172px;
   }
 }
